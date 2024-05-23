@@ -13,7 +13,6 @@
 <div class="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0 lg:flex items-center justify-between relative">
 <div class="w-full lg:w-1/4 flex items-center justify-between">
 <a href="index.html">
-<img src="images/logo 2.png" alt="Logo" />
 </a>
 
 <button class="lg:hidden block" @click="navigationOpen = !navigationOpen">
@@ -38,10 +37,9 @@
 <a href="index.html" class="relative text-white/80 text-sm py-1.5 px-4 border border-transparent hover:text-white hover:nav-gradient" :class="{'!text-white nav-gradient' :page === 'home'}">Home</a>
 </li>
 <li class="nav__menu lg:py-7" :class="{ 'lg:!py-4' : stickyMenu }">
-<a href="#features" class="relative text-white/80 text-sm py-1.5 px-4 border border-transparent hover:text-white hover:nav-gradient">Features</a>
+<a href="#features" class="relative text-white/80 text-sm py-1.5 px-4 border border-transparent hover:text-white hover:nav-gradient">Objectifs</a>
 </li>
 <li class="nav__menu lg:py-7" :class="{ 'lg:!py-4' : stickyMenu }">
-<a href="#pricing" class="relative text-white/80 text-sm py-1.5 px-4 border border-transparent hover:text-white hover:nav-gradient">Pricing</a>
 </li>
 <li class="group relative lg:py-7" :class="{ 'lg:!py-4' : stickyMenu }" x-data="{ dropdown: false }">
 <a href="#" class="relative text-white/80 text-sm py-1.5 px-4 border border-transparent hover:text-white hover:nav-gradient flex items-center justify-between gap-3" @click.prevent="dropdown = !dropdown" :class="{ '!text-white nav-gradient': page === 'about' || page === 'pricing' || page === 'blog-grid' || page === 'blog-single' || page === 'signin' || page === 'signup' || page === '404' }">
@@ -56,22 +54,16 @@ Pages
 <a href="assets/about.html" class="flex text-sm text-white/70 hover:text-white py-2 px-4 rounded-md hover:bg-white/5" :class="{ '!text-white bg-white/5': page === 'about' }">About Us</a>
 </li>
 <li>
-<a href="pricing.html" class="flex text-sm text-white/70 hover:text-white py-2 px-4 rounded-md hover:bg-white/5" :class="{ '!text-white bg-white/5': page === 'pricing' }">Pricing Table</a>
 </li>
 <li>
-<a href="blog-grid.html" class="flex text-sm text-white/70 hover:text-white py-2 px-4 rounded-md hover:bg-white/5" :class="{ '!text-white bg-white/5': page === 'blog-grid' }">Blog Grid</a>
 </li>
 <li>
-<a href="blog-single.html" class="flex text-sm text-white/70 hover:text-white py-2 px-4 rounded-md hover:bg-white/5" :class="{ '!text-white bg-white/5': page === 'blog-single' }">Blog Single</a>
 </li>
 <li>
-<a href="signin.html" class="flex text-sm text-white/70 hover:text-white py-2 px-4 rounded-md hover:bg-white/5" :class="{ '!text-white bg-white/5': page === 'signin' }">Sign In</a>
 </li>
 <li>
-<a href="signup.html" class="flex text-sm text-white/70 hover:text-white py-2 px-4 rounded-md hover:bg-white/5" :class="{ '!text-white bg-white/5': page === 'signup' }">Sign Up</a>
 </li>
 <li>
-<a href="404.html" class="flex text-sm text-white/70 hover:text-white py-2 px-4 rounded-md hover:bg-white/5" :class="{ '!text-white bg-white/5': page === '404' }">Error Page</a>
 </li>
 </ul>
 
@@ -82,7 +74,6 @@ Pages
 </ul>
 </nav>
 <div class="flex items-center gap-6 mt-7 lg:mt-0">
-<a href="signin.html" class="text-white text-sm hover:text-opacity-75">Sign in</a>
 <a href="signup.html" class="button-border-gradient relative rounded-lg text-white text-sm flex items-center gap-1.5 py-2 px-4.5 shadow-button hover:button-gradient-hover hover:shadow-none">
 Sign up
 <svg class="mt-0.5" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://worg/2000/svg">
@@ -152,12 +143,12 @@ en savoir plus
 <span class="hero-subtitle-text"> Some of Main Features </span>
 </span>
 <h2 class="text-white mb-4.5 text-2xl font-extrabold sm:text-4xl xl:text-heading-2">
-Key Features of Our Tool
+Objectifs Clés
 </h2>
 <p class="max-w-[714px] mx-auto mb-5 font-medium">
-Our AI writing tool is designed to empower you with exceptional
-writing capabilities, making the writing process more efficient,
-accurate, and enjoyable.
+	CongoSpotlight est une start-up
+	qui vise à mettre en avant les
+	jeunes entrepreneurs congolais !!
 </p>
 </div>
 <div class="relative">
@@ -175,11 +166,10 @@ accurate, and enjoyable.
 <img src="images/icon-01.svg" alt="icon" />
 </span>
 <h4 class="font-semibold text-lg text-white mb-4">
-Intelligent Writing Assistance
+	Accroître la visibilité des jeunes entrepreneurs :
 </h4>
 <p class="font-medium">
-Our AI writing tool analyzes your content, suggests
-improvements,
+	Nous voulons mettre en lumière les talents et les projets des jeunes entrepreneurs pour leur offrir une reconnaissance et des opportunités de croissance.
 </p>
 </div>
 </div>
@@ -191,10 +181,10 @@ improvements,
 <img src="images/icon-02.svg" alt="icon" />
 </span>
 <h4 class="font-semibold text-lg text-white mb-4">
-Grammar and Spell Check
+	Favoriser l'entrepreneuriat des jeunes
 </h4>
 <p class="font-medium">
-Say goodbye to embarrassing typos and grammar mistakes
+	Nous nous engageons à encourager et soutenir les jeunes dans leurs démarches entrepreneuriales, en leur fournissant les ressources et les outils nécessaires pour réussir.
 </p>
 </div>
 </div>
@@ -206,11 +196,10 @@ Say goodbye to embarrassing typos and grammar mistakes
 <img src="images/icon-03.svg" alt="icon" />
 </span>
 <h4 class="font-semibold text-lg text-white mb-4">
-Plagiarism Detection
+	Créer un réseau de jeunes entrepreneurs 
 </h4>
 <p class="font-medium">
-Originality is key, and our AI writing tool helps you
-maintain it
+	Nous visons à bâtir une communauté dynamique où les jeunes entrepreneurs peuvent se connecter, partager leurs expériences, et collaborer sur des projets innovants.
 </p>
 </div>
 </div>
@@ -226,11 +215,10 @@ maintain it
 <img src="images/icon-04.svg" alt="icon" />
 </span>
 <h4 class="font-semibold text-lg text-white mb-4">
-Voice to Text Conversion
+	Proposer des formations et des ateliers spécialisés
 </h4>
 <p class="font-medium">
-Transform your spoken words into written text easily &
-effortlessly
+	Nous offrons des programmes de formation et des ateliers sur divers aspects de l'entrepreneuriat,tels que la gestion d'entreprise, le marketing digital, et la finance, afin de renforcer les compétences des jeunes entrepreneurs.
 </p>
 </div>
 </div>
@@ -242,11 +230,10 @@ effortlessly
 <img src="images/icon-05.svg" alt="icon" />
 </span>
 <h4 class="font-semibold text-lg text-white mb-4">
-Style and Tone Adaptation
+	Faciliter l'accès au financement
 </h4>
 <p class="font-medium">
-Whether you need a professional, or positive tone it has
-everyone
+	Nous travaillons à établir des partenariats avec des investisseurs et des institutions financières pour fournir des opportunités de financement aux jeunes entrepreneurs, leur permettant ainsi de concrétiser leurs idées.
 </p>
 </div>
 </div>
@@ -258,11 +245,10 @@ everyone
 <img src="images/icon-06.svg" alt="icon" />
 </span>
 <h4 class="font-semibold text-lg text-white mb-4">
-Content Generation
+	Organiser des événements de réseautage et de mentorat
 </h4>
 <p class="font-medium">
-Need inspiration or assistance with generating content?
-</p>
+	Nous mettons en place des événements réguliers où les jeunes entrepreneurs peuvent rencontrer des mentors expérimentés, échanger des idées, et développer des relations professionnelles qui peuvent les aider à progresser dans leurs carrières entrepreneuriales.
 </div>
 </div>
 </div>
@@ -283,18 +269,25 @@ Need inspiration or assistance with generating content?
 <span class="hero-subtitle-gradient relative mb-4 font-medium text-sm inline-flex items-center gap-2 py-2 px-4.5 rounded-full">
 <img src="images/icon-title.svg" alt="icon">
 <span class="hero-subtitle-text">
-AI-Powered Writing Tool
+la lumière de l'entrepreneuriat
 </span>
 </span>
 <h3 class="text-white mb-4.5 font-bold text-heading-4">
-Intelligent Writing Assistance
+	 les défis auxquels les jeunes entrepreneurs
+ sont confrontés
 </h3>
 <p class="font-medium mb-10">
-Our AI writing tool is designed to empower you with
-exceptional writing capabilities, making the writing
-process...
+	1 l’affirmation : <br>
+	crée un projet c
+	’
+	est bien mais le jeune congolais qui
+	crée un projet on du mal à s
+	’
+	affirmer dans leurs domaines , arrive à
+	convaincre les jeunes qu
+	’il fournissent où vende le meilleure service !
 </p>
-<a href="#" class="features-button-gradient relative inline-flex items-center gap-1.5 rounded-full py-3 px-6 text-white text-sm ease-in duration-300 hover:shadow-button">
+<a href="##" class="features-button-gradient relative inline-flex items-center gap-1.5 rounded-full py-3 px-6 text-white text-sm ease-in duration-300 hover:shadow-button">
 Learn more
 <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.3992 5.60002L8.22422 0.350024C7.99922 0.125024 7.64922 0.125024 7.42422 0.350024C7.19922 0.575024 7.19922 0.925025 7.42422 1.15002L11.6242 5.42503H0.999219C0.699219 5.42503 0.449219 5.67502 0.449219 5.97502C0.449219 6.27502 0.699219 6.55003 0.999219 6.55003H11.6742L7.42422 10.875C7.19922 11.1 7.19922 11.45 7.42422 11.675C7.52422 11.775 7.67422 11.825 7.82422 11.825C7.97422 11.825 8.12422 11.775 8.22422 11.65L13.3992 6.40002C13.6242 6.17502 13.6242 5.82502 13.3992 5.60002Z" fill="white" />
@@ -334,12 +327,20 @@ Learn more
 <img src="images/icon-05.svg" alt="icon" />
 </span>
 <h3 class="text-white mb-4.5 font-semibold text-heading-6">
-Empowering Writing Excellence
+	Les réseautage 
 </h3>
 <p class="font-medium">
-Our AI writing tool is designed to empower you with
-exceptional writing capabilities, making the writing
-process...
+	l’
+	un des freins de l’
+	entreprenariat des jeunes
+	c
+	’
+	est le manque sur réseau , un réseau d’
+	affaires permet de
+	sécuriser et faciliter son affaire savoir chez qui s
+	’
+	en procurer
+	tel outil ou produit etc….
 </p>
 </div>
 
@@ -370,11 +371,15 @@ process...
 <img src="images/icon-07.svg" alt="icon" />
 </span>
 <h3 class="text-white mb-4.5 font-semibold text-heading-6">
-Grammar and Spell Check
+	La notoriété 
 </h3>
 <p class="font-medium">
-Our AI writing tool is designed to empower you with
-exceptional writing capabilities.
+	aujourd’hui on vie dans un monde où la notoriété est
+près importante dans le business , les jeunes entrepreneurs congolais
+n
+’
+est tien pas contre de la notoriété ! Il se focalise sur le profit et
+néglige la notoriété
 </p>
 </div>
 
@@ -435,201 +440,33 @@ exceptional writing capabilities.
 <div class="wow fadeInUp mb-17.5 -mt-24 text-center z-10 relative">
 <span class="hero-subtitle-gradient relative mb-4 font-medium text-sm inline-flex items-center gap-2 py-2 px-4.5 rounded-full">
 <img src="images/icon-title.svg" alt="icon">
-<span class="hero-subtitle-text"> Get access </span>
+<span class="hero-subtitle-text"> Stratégie de Contenu </span>
 </span>
 <h2 class="text-white mb-4.5 text-2xl font-extrabold sm:text-4xl xl:text-heading-2">
-Our Pricing Plan
+	CongoSpotlight offre une plateforme
+	pour accroître leur visibilité et leur
+	crédibilité.
+	
 </h2>
 <p class="max-w-[714px] mx-auto font-medium">
-Our AI writing tool is designed to empower you with exceptional
-writing capabilities, making the writing process more efficient,
-accurate, and enjoyable.
+	Organiser des entretiens avec divers
+	dirigeants du secteur ainsi que d'
+	autres
+	grands entrepreneurs qui ont réussi
+	dans ce domaine. Cela permettra
+	d'
+	offrir aux jeunes entrepreneurs des
+	références précieuses et des conseils
+	professionnels pour les guider dans leur
+	parcours
 </p>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7.5">
-
-<div class="wow fadeInUp rounded-3xl bg-dark relative z-20 overflow-hidden pt-12.5 pb-10 px-8 xl:px-10 pricing-item-border">
-<span class="absolute right-9 top-9"><img src="images/pricing-icon-01.svg" alt="icon" /></span>
-<h3 class="font-semibold text-heading-6 text-white mb-5.5">
-Starter
-</h3>
-<div class="flex items-center gap-3.5">
-<h2 class="font-bold text-custom-1 pricing-gradient-text">
-$10
-</h2>
-<p class="font-medium">
-/month <br/>
-(billed annually)
-</p>
-</div>
-<div class="my-10 w-full h-[1px] pricing-gradient-divider"></div>
-<ul class="flex flex-col gap-4">
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Subscription with levels</span>
-</li>
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Advanced features included</span>
-</li>
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Shared workspaces & tools</span>
-</li>
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Premium versions functionality</span>
-</li>
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Customizing the outputs</span>
-</li>
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Priority customer support</span>
-</li>
-</ul>
-<a href="/#" class="mt-11 flex items-center justify-center gap-1.5 font-medium text-white p-3 rounded-lg transition-all ease-in-out duration-300 relative pricing-button-gradient hover:shadow-button">
-Get the plan
-<svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M14.8992 7.5999L9.72422 2.3499C9.49922 2.1249 9.14922 2.1249 8.92422 2.3499C8.69922 2.5749 8.69922 2.9249 8.92422 3.1499L13.1242 7.4249H2.49922C2.19922 7.4249 1.94922 7.6749 1.94922 7.9749C1.94922 8.2749 2.19922 8.5499 2.49922 8.5499H13.1742L8.92422 12.8749C8.69922 13.0999 8.69922 13.4499 8.92422 13.6749C9.02422 13.7749 9.17422 13.8249 9.32422 13.8249C9.47422 13.8249 9.62422 13.7749 9.72422 13.6499L14.8992 8.3999C15.1242 8.1749 15.1242 7.8249 14.8992 7.5999Z" fill="white" />
-</svg>
-</a>
-<p class="mt-4 text-sm text-center">
-No extra hidden charge
-</p>
-
-<div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-<span class="absolute left-0 bottom-0 -z-1">
-<img src="images/blur-16.svg" alt="blur" class="max-w-none">
-</span>
-<span class="absolute left-0 top-0 -z-1">
-<img src="images/blur-17.svg" alt="blur" class="max-w-none">
-</span>
-</div>
 </div>
 
-<div class="wow fadeInUp rounded-3xl bg-dark relative z-20 overflow-hidden pt-12.5 pb-10 px-8 xl:px-10 pricing-item-border">
-<span class="absolute right-9 top-9"><img src="images/pricing-icon-02.svg" alt="icon" /></span>
-<h3 class="font-semibold text-heading-6 text-white mb-5.5">
-Medium
-</h3>
-<div class="flex items-center gap-3.5">
-<h2 class="font-bold text-custom-1 pricing-gradient-text">
-$59
-</h2>
-<p class="font-medium">
-/month <br/>
-(billed annually)
-</p>
-</div>
-<div class="my-10 w-full h-[1px] pricing-gradient-divider"></div>
-<ul class="flex flex-col gap-4">
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Subscription with levels</span>
-</li>
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Advanced features included</span>
-</li>
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Shared workspaces & tools</span>
-</li>
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Premium versions functionality</span>
-</li>
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Customizing the outputs</span>
-</li>
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Priority customer support</span>
-</li>
-</ul>
-<a href="/#" class="mt-11 flex items-center justify-center gap-1.5 font-medium text-white p-3 rounded-lg transition-all ease-in-out duration-300 relative pricing-button-gradient hover:shadow-button">
-Get the plan
-<svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M14.8992 7.5999L9.72422 2.3499C9.49922 2.1249 9.14922 2.1249 8.92422 2.3499C8.69922 2.5749 8.69922 2.9249 8.92422 3.1499L13.1242 7.4249H2.49922C2.19922 7.4249 1.94922 7.6749 1.94922 7.9749C1.94922 8.2749 2.19922 8.5499 2.49922 8.5499H13.1742L8.92422 12.8749C8.69922 13.0999 8.69922 13.4499 8.92422 13.6749C9.02422 13.7749 9.17422 13.8249 9.32422 13.8249C9.47422 13.8249 9.62422 13.7749 9.72422 13.6499L14.8992 8.3999C15.1242 8.1749 15.1242 7.8249 14.8992 7.5999Z" fill="white" />
-</svg>
-</a>
-<p class="mt-4 text-sm text-center">
-No extra hidden charge
-</p>
-
-<div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-<span class="absolute left-0 bottom-0 -z-1">
-<img src="images/blur-16.svg" alt="blur" class="max-w-none">
-</span>
-<span class="absolute left-0 top-0 -z-1">
-<img src="images/blur-17.svg" alt="blur" class="max-w-none">
-</span>
-</div>
 </div>
 
-<div class="wow fadeInUp rounded-3xl bg-dark relative z-20 overflow-hidden pt-12.5 pb-10 px-8 xl:px-10 pricing-item-border">
-<span class="absolute right-9 top-9"><img src="images/pricing-icon-03.svg" alt="icon" /></span>
-<h3 class="font-semibold text-heading-6 text-white mb-5.5">
-Business
-</h3>
-<div class="flex items-center gap-3.5">
-<h2 class="font-bold text-custom-1 pricing-gradient-text">
-$289
-</h2>
-<p class="font-medium">
-/month <br/>
-(billed annually)
-</p>
-</div>
-<div class="my-10 w-full h-[1px] pricing-gradient-divider"></div>
-<ul class="flex flex-col gap-4">
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Subscription with levels</span>
-</li>
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Advanced features included</span>
-</li>
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Shared workspaces & tools</span>
-</li>
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Premium versions functionality</span>
-</li>
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Customizing the outputs</span>
-</li>
-<li class="flex items-center gap-5">
-<img src="images/pricing-icon-04.svg" alt="icon" />
-<span class="font-medium">Priority customer support</span>
-</li>
-</ul>
-<a href="/#" class="mt-11 flex items-center justify-center gap-1.5 font-medium text-white p-3 rounded-lg transition-all ease-in-out duration-300 relative pricing-button-gradient hover:shadow-button">
-Get the plan
-<svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M14.8992 7.5999L9.72422 2.3499C9.49922 2.1249 9.14922 2.1249 8.92422 2.3499C8.69922 2.5749 8.69922 2.9249 8.92422 3.1499L13.1242 7.4249H2.49922C2.19922 7.4249 1.94922 7.6749 1.94922 7.9749C1.94922 8.2749 2.19922 8.5499 2.49922 8.5499H13.1742L8.92422 12.8749C8.69922 13.0999 8.69922 13.4499 8.92422 13.6749C9.02422 13.7749 9.17422 13.8249 9.32422 13.8249C9.47422 13.8249 9.62422 13.7749 9.72422 13.6499L14.8992 8.3999C15.1242 8.1749 15.1242 7.8249 14.8992 7.5999Z" fill="white" />
-</svg>
-</a>
-<p class="mt-4 text-sm text-center">
-No extra hidden charge
-</p>
 
-<div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-<span class="absolute left-0 bottom-0 -z-1">
-<img src="images/blur-16.svg" alt="blur" class="max-w-none">
-</span>
-<span class="absolute left-0 top-0 -z-1">
-<img src="images/blur-17.svg" alt="blur" class="max-w-none">
-</span>
-</div>
-</div>
+
+
 </div>
 </div>
 </section>
@@ -1687,7 +1524,7 @@ aliqua...
 <path d="M10 8.75C7.65625 8.75 5.78125 6.90625 5.78125 4.65625C5.78125 2.40625 7.65625 0.5625 10 0.5625C12.3438 0.5625 14.2188 2.40625 14.2188 4.65625C14.2188 6.90625 12.3438 8.75 10 8.75ZM10 1.96875C8.4375 1.96875 7.1875 3.1875 7.1875 4.65625C7.1875 6.125 8.4375 7.34375 10 7.34375C11.5625 7.34375 12.8125 6.125 12.8125 4.65625C12.8125 3.1875 11.5625 1.96875 10 1.96875Z" fill />
 <path d="M16.5938 19.4688C16.2188 19.4688 15.875 19.1562 15.875 18.75V17.8438C15.875 14.5938 13.25 11.9688 10 11.9688C6.75 11.9688 4.125 14.5938 4.125 17.8438V18.75C4.125 19.125 3.8125 19.4688 3.40625 19.4688C3 19.4688 2.6875 19.1562 2.6875 18.75V17.8438C2.6875 13.8125 5.96875 10.5625 9.96875 10.5625C13.9688 10.5625 17.25 13.8437 17.25 17.8438V18.75C17.2813 19.125 16.9688 19.4688 16.5938 19.4688Z" fill />
 </svg>
-<span class="text-sm font-medium">Hendary Jonson</span>
+<span class="text-sm font-medium">ERICKSON KAYEMBE</span>
 </div>
 <div class="flex items-center gap-2 flex-wrap cursor-pointer ease-in duration-300 hover:text-white">
 <svg class="fill-current" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1834,7 +1671,7 @@ Subscribe
 <div class="flex flex-wrap justify-between">
 <div class="mb-10 max-w-[571px] w-full">
 <a class="mb-8.5 inline-block" href="index.html">
-<img src="images/logo.svg" alt="Logo" />
+<img src="images/logo 2.png" alt="Logo" />
 </a>
 <p class="mb-12 xl:w-4/5">
 AI writing tool is designed to empower you with exceptional writing
@@ -1865,7 +1702,7 @@ capabilities.
 </a>
 </div>
 <p class="font-medium mt-5.5">
-AI Tool, LLC. All rights reserved.
+CongoSpotlight, LLC. All rights reserved.
 </p>
 </div>
 <div class="max-w-[571px] w-full">
