@@ -35,13 +35,13 @@
 <nav>
 <ul class="flex lg:items-center flex-col lg:flex-row gap-5 lg:gap-2">
 <li class="nav__menu lg:py-7" :class="{ 'lg:!py-4' : stickyMenu }">
-<a href="/index.html" class="relative text-white/80 text-sm py-1.5 px-4 border border-transparent hover:text-white hover:nav-gradient" :class="{'!text-white nav-gradient' :page === 'home'}">Home</a>
+<a href="index.html" class="relative text-white/80 text-sm py-1.5 px-4 border border-transparent hover:text-white hover:nav-gradient" :class="{'!text-white nav-gradient' :page === 'home'}">Home</a>
 </li>
 <li class="nav__menu lg:py-7" :class="{ 'lg:!py-4' : stickyMenu }">
-<a href="/#features" class="relative text-white/80 text-sm py-1.5 px-4 border border-transparent hover:text-white hover:nav-gradient">Features</a>
+<a href="#features" class="relative text-white/80 text-sm py-1.5 px-4 border border-transparent hover:text-white hover:nav-gradient">Features</a>
 </li>
 <li class="nav__menu lg:py-7" :class="{ 'lg:!py-4' : stickyMenu }">
-<a href="/#pricing" class="relative text-white/80 text-sm py-1.5 px-4 border border-transparent hover:text-white hover:nav-gradient">Pricing</a>
+<a href="#pricing" class="relative text-white/80 text-sm py-1.5 px-4 border border-transparent hover:text-white hover:nav-gradient">Pricing</a>
 </li>
 <li class="group relative lg:py-7" :class="{ 'lg:!py-4' : stickyMenu }" x-data="{ dropdown: false }">
 <a href="#" class="relative text-white/80 text-sm py-1.5 px-4 border border-transparent hover:text-white hover:nav-gradient flex items-center justify-between gap-3" @click.prevent="dropdown = !dropdown" :class="{ '!text-white nav-gradient': page === 'about' || page === 'pricing' || page === 'blog-grid' || page === 'blog-single' || page === 'signin' || page === 'signup' || page === '404' }">
@@ -53,7 +53,7 @@ Pages
 
 <ul class="dropdown" :class="{ 'flex': dropdown }">
 <li>
-<a href="about.html" class="flex text-sm text-white/70 hover:text-white py-2 px-4 rounded-md hover:bg-white/5" :class="{ '!text-white bg-white/5': page === 'about' }">About Us</a>
+<a href="assets/about.html" class="flex text-sm text-white/70 hover:text-white py-2 px-4 rounded-md hover:bg-white/5" :class="{ '!text-white bg-white/5': page === 'about' }">About Us</a>
 </li>
 <li>
 <a href="pricing.html" class="flex text-sm text-white/70 hover:text-white py-2 px-4 rounded-md hover:bg-white/5" :class="{ '!text-white bg-white/5': page === 'pricing' }">Pricing Table</a>
@@ -127,14 +127,19 @@ A la lumière de l'entrepreneurs
 <p class="max-w-[500px] mx-auto mb-9 font-medium md:text-lg">
 	Nous sommes ravis de vous accueillir sur CongoSpotlight, la plateforme dédiée à mettre en lumière les jeunes entrepreneurs congolais ! 
 </p>
-<a href="#" class="hero-button-gradient inline-flex rounded-lg py-3 px-7 text-white font-medium ease-in duration-300 hover:opacity-80">
-Start Your Free Trial
+<a href="assets/about.html" class="hero-button-gradient inline-flex rounded-lg py-3 px-7 text-white font-medium ease-in duration-300 hover:opacity-80">
+en savoir plus 
 </a>
 </div>
 </div>
 <div class="mt-17" data-wow-delay="0.1s">
-<img class="mx-auto" src="images/hero.svg" alt="hero" />
-</div>
+	<video class="mx-auto" autoplay muted>
+	  <source src="images/vid 01.mp4" type="video/mp4">
+	  Votre navigateur ne supporte pas la balise vidéo.
+	</video>
+  </div>
+  
+  
 </section>
 
 
